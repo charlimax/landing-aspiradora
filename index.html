@@ -1,7 +1,4 @@
-from pathlib import Path
 
-# Contenido HTML de la landing moderna
-html_content = """
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -76,10 +73,3 @@ html_content = """
   </div>
 </body>
 </html>
-"""
-
-# Guardar archivo como index.html
-file_path = Path("/mnt/data/index.html")
-file_path.write_text(html_content, encoding="utf-8")
-
-file_path.name
