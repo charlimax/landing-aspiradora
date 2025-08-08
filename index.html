@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -8,39 +8,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to bottom, #f9fafb, #e0f2f1);
-      color: #333;
+      background: #000000;
+      color: #ffffff;
       margin: 0;
       padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
       text-align: center;
     }
-
     .container {
       max-width: 480px;
-      width: 100%;
+      margin: 0 auto;
       padding: 2rem 1rem;
     }
-
     h1 {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
-
     p {
       font-size: 1rem;
       margin-bottom: 2rem;
     }
-
     .btn {
       display: block;
       width: 100%;
@@ -54,27 +42,33 @@
       border-radius: 12px;
       transition: background 0.3s;
     }
-
     .btn:hover {
       background-color: #008e76;
     }
-
     .logo {
-      width: 80px;
+      display: block;
+      margin: 0 auto 1rem auto; /* centrado */
+      width: 250px; /* tamaño aumentado */
+    }
+    .product {
+      width: 100%;
+      border-radius: 12px;
       margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>🧹Descubre la Aspiradora Inalámbrica Ideal</h1>
-    <p>✨ Limpieza poderosa, sin cables y sin complicaciones. Perfecta para hogares modernos.</p>
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1>🧹 Descubre la Aspiradora<br>Inalámbrica Ideal</h1>
+    <img src="aspiradora.png" alt="Aspiradora" width="300">
+    <p>✨ Limpieza poderosa, sin cables y sin complicaciones. Perfecta para hogares modernos.<br>Apta para piso duro y alfombras</p>
     <a class="btn" href="https://wa.me/573023178030?text=Hola%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20aspiradora">
       📞 Chatear por WhatsApp
     </a>
     <a class="btn" href="https://amzn.to/4lgpbeo">
       🛒 Ver en Amazon
-    </a>  
+    </a>
   </div>
 </body>
 </html>
